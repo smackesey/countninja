@@ -2176,6 +2176,11 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.2.tgz#5950e50960793055845e956c427fc2b0d70c5239"
   integrity sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==
 
+"@types/poisson-disk-sampling@^2.2.4":
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/@types/poisson-disk-sampling/-/poisson-disk-sampling-2.2.4.tgz#c15ebc4ab69ce1e8f253024e8f7087a297fe8786"
+  integrity sha512-S91hu3CW2P9Aib0uN0VO3VnL6BqlDFcmduHbcxW+I6/DwZjPkzgQM7zQaIscqxNg7aIm+QhXIFe4RSN2xFjL6g==
+
 "@types/prettier@^2.1.5":
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.7.3.tgz#3e51a17e291d01d17d3fc61422015a933af7a08f"
@@ -6721,6 +6726,11 @@ mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.6"
 
+moore@~1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/moore/-/moore-1.0.0.tgz#1d2b298c32cfd330db0fe81a0b5bac319fd9eb65"
+  integrity sha512-xcsFo/jgtMuVaGePHod5TdSzxnRAQQ4wFpDmFuu34lHvx5sNMsioA84NW7iBWYZ10jHR/nyGaDkhunMJxqAzkw==
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -7177,6 +7187,13 @@ pkg-up@^3.1.0:
   integrity sha512-nDywThFk1i4BQK4twPQ6TA4RT8bDY96yeuCVBWL3ePARCiEKDRSrNGbFIgUJpLp+XeIR65v8ra7WuJOFUBtkMA==
   dependencies:
     find-up "^3.0.0"
+
+poisson-disk-sampling@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/poisson-disk-sampling/-/poisson-disk-sampling-2.3.1.tgz#11e67fb10667ef065a3d334c0f7a50b6bd77977d"
+  integrity sha512-O3TzHR8IA+Do5zC7EgPdHLOYOpUJ6DikiTwqRqXdSPUhx1ZqfeH6PqAD86KKi+8Nq8vnL2navErsgURKTe089w==
+  dependencies:
+    moore "~1.0.0"
 
 postcss-attribute-case-insensitive@^5.0.2:
   version "5.0.2"
